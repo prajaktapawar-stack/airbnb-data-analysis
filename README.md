@@ -1,80 +1,92 @@
-# Airbnb EDA Project(Python)
+# Airbnb Data Analysis using Python
 
-## 🧭 Project Overview
+## About the Project
 
-Founded in 2008, Airbnb has fundamentally changed the travel and hospitality landscape by offering a platform where hosts can list a wide variety of accommodations and travelers can book unique places to stay worldwide. This platform supports an extensive range of lodging options, including private rooms, entire homes, boutique apartments, and unusual properties like treehouses and boats. This personalized and flexible approach to accommodation has allowed Airbnb to become one of the most popular travel services globally, providing travelers with diverse and cost-effective lodging alternatives that traditional hotels may not offer.
+This project is based on Airbnb listing data. The main aim of this project is to explore the dataset and find useful patterns related to prices, room types, locations, reviews, and availability.
 
-## 🎯 Purpose of the Project
+I used Python for data cleaning, analysis, and visualization. I also used SQLite and Pandas for some of the data exploration.
 
-The **Airbnb-Analysis-Capstone-Project** leverages a comprehensive dataset of Airbnb listings to extract actionable insights into the platform’s operations, user preferences, and market trends. This analysis aims to support decision-making for:
-- Hosts looking to optimize their listings,
-- Travelers seeking the best stays,
-- Business stakeholders interested in understanding Airbnb’s marketplace dynamics.
+## Objectives
 
-## 📊 Dataset Description
+* Understand the Airbnb dataset
+* Clean and prepare the data for analysis
+* Analyze prices in different neighborhoods
+* Find the most common room types
+* Explore the relationship between price and reviews
+* Analyze listing availability
+* Understand host and neighborhood patterns
 
-The dataset includes detailed information about Airbnb listings, such as:
+## Dataset
 
-- **Listing Details:** ID, name, host ID, host name, neighborhood group (borough), specific neighborhood, latitude, and longitude.  
-- **Accommodation Attributes:** Room type (e.g., private room, entire home), price, minimum nights required for booking.  
-- **Review Metrics:** Number of reviews, date of last review, average reviews per month.  
-- **Host Information:** Number of listings per host.  
-- **Availability:** Number of days the listing is available in a year.  
+The dataset contains information about Airbnb listings such as:
 
-This rich dataset enables in-depth exploration of how listing attributes and host behaviors influence pricing, availability, and customer preferences.
+* Listing ID and host information
+* Neighborhood and location
+* Room type
+* Price
+* Minimum nights
+* Number of reviews
+* Reviews per month
+* Number of listings by host
+* Availability
+* Latitude and longitude
 
-## 🔍 Few Key Analyses Conducted
+## Tools and Technologies
 
-- **Average Price by Neighbourhood Group:**  
-  Analyzed how the average price varies across major boroughs (Brooklyn, Manhattan, Queens, etc.) to identify which areas command higher or lower prices.
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SQLite
+* Jupyter Notebook
 
-- **Most Preferred Room Types:**  
-  Examined the distribution of room types to understand guest preferences, such as entire homes versus private rooms.
+## Analysis
 
-- **Popular Neighborhoods:**  
-  Identified the neighborhoods with the highest demand and activity using listings and review counts.
+Some of the analysis performed in this project includes:
 
-- **Price Trends Over Time:**  
-  Plotted trends of average prices over time to observe seasonal patterns and market fluctuations.
+### Price Analysis
 
-- **Price Variation by Neighborhood Group:**  
-  Studied the spread and variability of prices within each borough to detect pricing diversity.
+Compared the average prices of Airbnb listings across different neighborhood groups.
 
-- **Visualizing Price vs Number of Reviews:**  
-  Explored the relationship between listing price and popularity, as measured by review count.
+### Room Type Analysis
 
-- **Host Activity Analysis:**  
-  Investigated how the number of listings managed by hosts affects availability and pricing, offering insights into competition and host strategies.
+Analyzed the different room types available and their distribution.
 
-## 📈 Visualization Techniques
+### Neighborhood Analysis
 
-The project employs a variety of visual tools to uncover insights:
+Explored the number of listings and reviews across different neighborhoods.
 
-- Heatmaps to illustrate feature correlations  
-- Line plots to track price changes over time  
-- Bar charts and treemaps for categorical distribution analysis  
-- Scatter plots for relationships between price, reviews, and availability  
-- Interactive dashboards for user-driven data exploration
+### Reviews Analysis
 
-## 💡 Practical Insights
+Studied the relationship between the number of reviews and listing prices.
 
-- **Pricing Strategy:**  
-  Hosts can adjust their prices based on neighborhood trends, room types, and seasonality to maximize occupancy and revenue.
+### Availability Analysis
 
-- **Guest Decision-Making:**  
-  Travelers gain insights on which neighborhoods offer the best value and most preferred room types.
+Analyzed how the availability of listings differs across locations and room types.
 
-- **Market Dynamics:**  
-  Stakeholders and Airbnb can better understand supply and demand patterns and optimize their marketing and operational strategies.
+### Host Analysis
 
-- **Host Optimization:**  
-  Hosts can manage multiple listings more effectively by understanding how listing count affects availability and pricing.
+Looked at hosts with multiple listings and explored their listing patterns.
 
----
+## Visualizations
 
-## 🚀 Summary
+The analysis includes different types of visualizations such as:
 
-This capstone project offers a comprehensive exploration of Airbnb’s listings and operations. With the help of visual analytics, statistical summaries, and strategic insights, this project aims to deliver value to both platform users and business analysts.
+* Bar charts
+* Scatter plots
+* Histograms
+* Line charts
+* Heatmaps
 
+These visualizations were used to understand the data more easily and identify important patterns.
 
+## Conclusion
 
+This project helped me understand how Python and data visualization can be used to analyze a real-world dataset. The analysis provides a better understanding of Airbnb pricing, room types, locations, reviews, and availability.
+
+## Reference
+
+This project was developed for learning purposes with reference to a publicly available Airbnb analysis project:
+
+https://github.com/gauravgaira/airbnb-data-analysis-capstone_python
